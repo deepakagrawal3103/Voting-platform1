@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="voting.html">Vote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="results-page">
+        <h2>Voting Results</h2>
+
+        <div class="result">
+            <p>Candidate 1: <span class="vote-count" id="candidate1-votes">300</span> votes</p>
+            <div class="progress-bar" style="width: 60%;"></div>
+        </div>
+
+        <div class="result">
+            <p>Candidate 2: <span class="vote-count" id="candidate2-votes">150</span> votes</p>
+            <div class="progress-bar" style="width: 30%;"></div>
+        </div>
+
+        <div class="result">
+            <p>Candidate 3: <span class="vote-count" id="candidate3-votes">50</span> votes</p>
+            <div class="progress-bar" style="width: 10%;"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Voting Platform</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

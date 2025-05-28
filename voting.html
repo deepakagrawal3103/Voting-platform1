@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="results.html">Results</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="voting-page">
+        <h2>Vote for Your Favorite Candidate</h2>
+
+        <div class="candidate">
+            <img src="candidate1.jpg" alt="Candidate 1">
+            <p>Candidate 1</p>
+            <input type="radio" name="candidate" value="1">
+        </div>
+
+        <div class="candidate">
+            <img src="candidate2.jpg" alt="Candidate 2">
+            <p>Candidate 2</p>
+            <input type="radio" name="candidate" value="2">
+        </div>
+
+        <div class="candidate">
+            <img src="candidate3.jpg" alt="Candidate 3">
+            <p>Candidate 3</p>
+            <input type="radio" name="candidate" value="3">
+        </div>
+
+        <button class="vote-btn" onclick="confirmVote()">Submit Vote</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Voting Platform</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
